@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package za.co.sindi.validations.core;
+
+/**
+ * @author Bienfait Sindi
+ * @since 23 July 2012
+ *
+ */
+public enum ValidationLevel {
+	ERROR("ERROR"),
+	WARN("WARN"),
+	MESSAGE("MESSAGE")
+	;
+	private final String level;
+
+	/**
+	 * @param level
+	 */
+	private ValidationLevel(final String level) {
+		this.level = level;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Enum#toString()
+	 */
+	@Override
+	public final String toString() {
+		// TODO Auto-generated method stub
+		return level;
+	}
+}

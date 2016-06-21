@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package za.co.sindi.validations.core;
+
+/**
+ * @author Bienfait Sindi
+ * @since 12 January 2013
+ *
+ */
+public interface ValidatorFactory {
+
+	public <T> Validator<T> getValidator(String validatorId);
+}
